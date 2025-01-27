@@ -30,7 +30,7 @@ def circular_distribution(rng, r_min, r_max, num_samples, label):
 # generates a fixed number of 2-dimensional data points with a corresponding
 # binary class label (0 or 1)
 def generate_data(rng, num_samples):
-    data1 = normal_distribution(rng, 0.0, 1.0, num_samples // 2, 0)
+    data1 = normal_distribution(rng, 0.0, 1.5, num_samples // 2, 0)
     data2 = circular_distribution(rng, 9.0, 12.0, num_samples // 2, 0)
     data3 = circular_distribution(rng, 4.0, 6.0, num_samples, 1)
 
