@@ -26,4 +26,5 @@ jobs:
     - name: Run tests
       run: |
         ./test.sh
+        pytest example_test.py
       shell: bash -el {0}
